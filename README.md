@@ -11,10 +11,9 @@ Has a list of cricket commentary units in the file dataset.txt. A single unit of
 2.num2words(installation command: sudo pip install num2words)</br></br>
 
 **Commands for executing the program**</br>
-python tfidf.py</br></br>
+python tfidf.py</br>
 
 **Sample Input and Output**</br>
-
 enter the query string: or q to quit</br>
 driven through midwicket for a couple of runs</br>
 **************************************************************</br>
