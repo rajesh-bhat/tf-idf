@@ -13,7 +13,7 @@ Has a list of cricket commentary units in the file dataset.txt. A single unit of
 **Commands for executing the program**</br>
 python tfidf.py</br>
 
-**Input Format for Query string*<br>
+**Input Format for Query string**<br>
 If input starts with " "(double quotes) program  returns ONLY those documents that match ALL the terms
 in the query (logical AND of query terms but NOT phrase matching).That is,
 “q1 q2 ...qk”, where q1 to qk are the terms of the query placed within double
