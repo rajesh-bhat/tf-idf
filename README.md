@@ -13,6 +13,14 @@ Has a list of cricket commentary units in the file dataset.txt. A single unit of
 **Commands for executing the program**</br>
 python tfidf.py</br>
 
+**Input Format for Query string**<br>
+If input starts with " "(double quotes) program  returns ONLY those documents that match ALL the terms
+in the query (logical AND of query terms but NOT phrase matching).That is,
+“q1 q2 ...qk”, where q1 to qk are the terms of the query placed within double
+quotes as shown.
+For example, if the query contains “Stuart Broad to Virat Kohli”, program returns the ranked list of documents [d1, d2..., d10] only if every document di matches ALL the terms used in the query. Note that exact phrase matching is not needed. We only require that the given document contain ALL the terms in the query (regardless of the order) in order to be considered for ranking.<br>
+Otherwise program returns documents that match the query where the query terms are considered as logical OR.<br>
+
 **Sample Input and Output**</br>
 enter the query string: or q to quit</br>
 driven through midwicket for a couple of runs</br>
